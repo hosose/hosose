@@ -3,25 +3,58 @@
 <head>
 <title>Introduce Myself</title>
 <meta charset="utf-8">
+<style>
+    a {
+            color:black;
+            
+            text-decoration: none;
+        }
+        h1 {
+            text-align: center;
+            font-size : 40px;
+            border-bottom : 1px solid black;
+            margin : 0;
+            padding : 20px;
+
+        }
+        
+        #grid {
+            border : 5px solid green;
+            display: grid;
+            grid-template-columns: 180px 1fr;
+        }
+        div{
+            border:5px solid pink;
+            padding: 10px;
+            
+        }
+        .saw {
+        color: deeppink;
+        }
+</style>
 </head>
 
 <body>
 	<h1><strong><a href="index.html">Introduce Myself</a></strong></h1>
-
-	<h2>김세호</h2>
-<ol>
-	<li><a href="age.html">나이</a></li>
+<div id="grid">
+<div>
+    <ol>
+	<li><a href="name.html">이름</a></li>
+    <li><a href="age.html">나이</a></li>
 	<li><a href="job.html">직업</a></li>
-	<li><a href="hobby.html">취미</a></li>
+	<li><a href="hobby.html"class="saw">취미</a></li>
 	<li><a href="ga_char.html">특기 및 성격</a></li>
 	<li><a href="gf.html">♥</a></li>
 </ol>
-
-<img src="Say_Ho.jpg" width="400">
-<br>취미 : 독서, 운동, 드라마 및 영화 시청, <a href="https://dart.fss.or.kr/" target="_blank" title="전자공시 다트">기업 분석</a>
-<br>좋아하는 독서 장르 : 소설, 경제
-<br>최근 보는 드라마 : 환혼(Netflix)
-<br>기업분석은 전자공시 사이트 다트 이용
+</div>
+<!-- <img src="Say_Ho.jpg" width="400"> -->
+<div>
+    <br><font size="6px">최근 보는 드라마 : 환혼(Netflix)</font>
+    <br><br><font size="6px">좋아하는 독서 장르 : 소설, 경제</font>
+    <br><br><font size="6px">기업분석은 전자공시 사이트 다트 이용</font>
+    <br><br><font size="6px">취미 : 독서, 운동, 드라마 및 영화 시청, <a href="https://dart.fss.or.kr/" target="_blank" title="전자공시 다트">기업 분석</a></font>
+</div>
+</div>
 </body>
 </html>
 <p>

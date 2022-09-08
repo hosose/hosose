@@ -1,22 +1,53 @@
 <!doctype html>
 <html>
 <head>
-<title>Introduce Myself</title>
-<meta charset="utf-8">
+    <title>Introduce Myself</title>
+    <meta charset="utf-8">
+    <style>
+        a {
+            color:black;
+            
+            text-decoration: none;
+        }
+        h1 {
+            text-align: center;
+            font-size : 40px;
+            border-bottom : 1px solid black;
+            margin : 0;
+            padding : 20px;
+
+        }
+        
+        #grid {
+            border : 5px solid green;
+            display: grid;
+            grid-template-columns: 180px 1fr;
+        }
+        div{
+            border:5px solid pink;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
 	<h1><strong><a href="index.html">Introduce Myself</a></strong></h1>
-
-	<h2>김세호</h2>
+<div id="grid">
+<div>
 <ol>
-	<li><a href="age.html">나이</a></li>
+	<li><a href="name.html">이름</a></li>
+    <li><a href="age.html">나이</a></li>
 	<li><a href="job.html">직업</a></li>
 	<li><a href="hobby.html">취미</a></li>
 	<li><a href="ga_char.html">특기 및 성격</a></li>
 	<li><a href="gf.html">♥</a></li>
 </ol>
-<img src="Say_Ho.jpg" width="400">
+</div>
+<div>
+
+</div>
+</div>
+<!-- <img src="Say_Ho.jpg" width="400"> -->
 </body>
 </html>
 
@@ -45,3 +76,7 @@
 <!-- 댓글기능 추가하려면 백엔드 기술을 이용해야한다. disqus, LiveRe서비스를 이용해서 이용
 disqus 로그인 /관리자로 들어가서/ your site 클릭 /new 클릭/ 웹사이트 이름 등록 / univesal code 클릭 /
 1번에 있는 코드 카피해서 넣기 / 웹서버를 이용해서 파일을 열면 댓글 달 수 있다. -->
+<!-- tawk 이용하면 채팅기능 추가 가능 
+/ 로그인 후 설정 클릭 / 코드 복사 /  -->
+<!-- 웹페이지 분석기 ->구글 analytics 서비스이용
+/ analytics.google.com / 로그인 / 계정 만들기 / tracking code 클릭 / 코드 복사 / head tag 사이에 넣기 -->
